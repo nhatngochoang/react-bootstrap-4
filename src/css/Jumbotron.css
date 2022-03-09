@@ -1,0 +1,6 @@
+.jumbotron-demo {
+   background-image: url('../assets/images/demo-jumbotron-v5.png');
+   width: 50%;
+   height: 50vh;
+   background-size: cover;
+}
