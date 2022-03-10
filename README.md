@@ -1,5 +1,24 @@
+# Install Font Awesome
+
+```bash
+npm i --save @fortawesome/fontawesome-svg-core
+npm install --save @fortawesome/free-solid-svg-icons
+npm install --save @fortawesome/react-fontawesome
+```
+🦔🦔🦔 Using
+// Light:
+<FontAwesomeIcon icon={["fal", "coffee"]} />
+// Regular:
+<FontAwesomeIcon icon={["far", "coffee"]} />
+// Solid
+<FontAwesomeIcon icon={["fas", "coffee"]} />
+// ...or, omit as FontAwesome defaults to solid, so no need to prefix:
+<FontAwesomeIcon icon="coffee" />
+// Brand:
+<FontAwesomeIcon icon={["fab", "github"]} />
+
 # Row Classes
-.justify-content-start|center|end
+.justify-content-(start / center / end)
 # Column Classes
 Small Mobile  ▶ .col-
 Big Mobile    ▶ .col-sm-
@@ -8,8 +27,8 @@ Small Desktop ▶ .col-lg-
 Large Desktop ▶ .col-xl-
 
 .col ▶ Auto width
-.align-self-start|center|end
-.order-n
+.align-self-(start / center / end)
+.order-{n}
 # Công thức
 col + màn hình(sm,md,lg,xl,không dùng) + (tỉ lệ cột trong dòng= 12/ số cột mong muốn)
 
@@ -25,3 +44,14 @@ col + màn hình(sm,md,lg,xl,không dùng) + (tỉ lệ cột trong dòng= 12/ s
 
 # Button, Input
 size: sm,lg
+
+# Flexbox
+d-flex flex-(row|column) justify-content-start align-items-center
+flex-wrap
+
+# Text
+align: text-(start / center / end)
+font-size: fs-{n}
+
+# Visible
+d-none
