@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const PopOverComponent = () => (
    <OverlayTrigger
-      trigger={["hover", "hover"]}
+      trigger={["hover", "focus"]}
       placement="right" // top', 'right', 'bottom', 'left
       overlay={
          <Popover id="popover-basic">
